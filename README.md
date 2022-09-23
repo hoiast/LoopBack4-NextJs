@@ -1,18 +1,18 @@
 # LoopBack4-NextJs
-Simple CRUD using LoopBack and NextJs
+Simple CRUD using [PostgreSQL](https://www.postgresql.org/), [LoopBack](https://loopback.io/) and [Next.js](https://nextjs.org/)
 
 ## Installation and Usage
-Please follow instructions of README files in each folder. Please note that you will need to run both __LoopBack__ (Back end server) and __NextJs__ (Front end server) in order to see the results.
+Please follow instructions of README files in each folder. Please note that you will need to run both __LoopBack__ (Back end server) and __Next.js__ (Front end server) in order to see the results.
 
-## Techs used
-- LoopBack 4
-    - TypeScript
-    - PostgreSQL
+## Techs 
+- [LoopBack](https://loopback.io/)
+    - [TypeScript](https://www.typescriptlang.org/)
+    - [PostgreSQL](https://www.postgresql.org/)
 
-- NextJs
-    - React
-    - TypeScript
-    - Materialize CSS
+- [Next.js](https://nextjs.org/)
+    - [React](https://reactjs.org/)
+    - [TypeScript](https://www.typescriptlang.org/)
+    - [Materialize CSS](https://materializecss.com/)
 
 ## ER model
 ![ER model](https://github.com/hoiast/LoopBack4-NextJs/blob/main/ERModel_563x176.jpeg)
