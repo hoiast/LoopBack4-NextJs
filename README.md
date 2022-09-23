@@ -23,7 +23,7 @@ Comments on the ER model implementation:
 - Foreign keys are no longer abbreviated (e.g. "prof_id" was changed to "profissaoId")
 - Strong relations are not available out-of-the-box in LoopBack 4, so they were implemented as weak relations (e.g. "profissaoId" is not a foreign key in "Pessoa" table) and do not support delete cascade. It is possible to implement strong relations in LoopBack 4, but it requires some extra work when dealing with scaffolded relations, controllers and models.
 - Loopback validations are not fully implemented.
-- CPF and phone number mask are lacking in the front end.
+- CPF and phone number masks are not yet implemented. 
 
 ## Screenshot
 ![Screenshot Home](https://github.com/hoiast/LoopBack4-NextJs/blob/main/ScreenshotHome_1915x945.jpeg)
