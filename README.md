@@ -1,2 +1,30 @@
 # LoopBack4-NextJs
-Simple CRUD developed for practice LoopBack and NextJs
+Simple CRUD using LoopBack and NextJs
+
+## Installation and Usage
+Please follow instructions of README files in each folder. Please note that you will need to run both __LoopBack__ (Back end server) and __NextJs__ (Front end server) in order to see the results.
+
+## Techs used
+- LoopBack 4
+    - TypeScript
+    - PostgreSQL
+
+- NextJs
+    - React
+    - TypeScript
+    - Materialize CSS
+
+## ER model
+![ER model](https://github.com/hoiast/LoopBack4-NextJs/blob/main/ERModel_563x176.jpeg)
+
+Comments on the ER model implementation:
+- Field prefixes were removed when unnecessary (e.g. "pes_" prefix in "pes_id" field was removed because it is already clear that it is a person id)
+- CamelCase was used for field names (e.g. "pes_data_nascimento" was changed to "dataNascimento")
+- Foreign keys are no longer abbreviated (e.g. "prof_id" was changed to "profissaoId")
+- Strong relations are not available out-of-the-box in LoopBack 4, so they were implemented as weak relations (e.g. "profissaoId" is a foreign key in "Pessoa" table, but it is not a foreign key in "Profissao" table). It is possible to implement strong relations in LoopBack 4, but it requires some extra work when dealing with scaffolded relations, controllers and models.
+
+## Screenshot
+![Screenshot Home](https://github.com/hoiast/LoopBack4-NextJs/blob/main/ScreenshotHome_1915x945.jpeg)
+
+
+
