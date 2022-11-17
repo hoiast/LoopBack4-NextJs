@@ -1,7 +1,7 @@
 {
   "name": "pessoa-profissao",
   "version": "0.0.1",
-  "description": "Back end feito em Loopback conectado a um banco PostgreSQL para processo de contratacao na Active Cursos - Paciente 360",
+  "description": "Back end feito em Loopback conectado a um banco PostgreSQL",
   "keywords": [
     "loopback-application",
     "loopback"
